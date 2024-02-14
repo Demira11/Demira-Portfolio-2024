@@ -43,11 +43,15 @@
               placeat! Voluptatibus rerum at odit natus placeat.
             </p>
             <div class="tab-titles">
-              <p class="tab-links active-link">Skills</p>
-              <p class="tab-links">Experience</p>
-              <p class="tab-links">Education</p>
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
                 <li><span>Web Development</span><br />Web app Development</li>
@@ -56,7 +60,7 @@
                 </li>
               </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents" id="experience">
               <ul>
                 <li>
                   <span>2022 - Current</span><br />UI/UX Design Training at ET
@@ -68,7 +72,7 @@
                 </li>
               </ul>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents" id="education">
               <ul>
                 <li>
                   <span>2016</span><br />UI/UX Design Training at ET Institute
@@ -81,5 +85,9 @@
         </div>
       </div>
     </div>
+
+    <script>
+      let tablinks = document.getElementByClassName("tab-links");
+    </script>
   </body>
 </html>
