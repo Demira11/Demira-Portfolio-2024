@@ -159,13 +159,24 @@
             <div class="layer">
               <h3>Budget App</h3>
               <p>
-                Full-stack, Custom API, Authentication, Design, Testing, React,
-                successfull group collaboration.
+                Full-stack, Custom API, Auth, Design, React, Group
+                collaboration.
               </p>
               <a href="https://ddj-budget-hub.netlify.app/" target="_blank"
                 ><i class="fa-solid fa-up-right-from-square"></i
               ></a>
-              <p></p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/tic-tac-toe.png" />
+            <div class="layer">
+              <h3>Tic-Tac-Toe</h3>
+              <p>JS, Interactive, Responsive, Single & Multiplayer Modes.</p>
+              <a
+                href="https://demira-codes-tic-tac-toe-game.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
             </div>
           </div>
           <div class="work">
@@ -176,8 +187,11 @@
                 OpenWeatherMap API, JavaScript, Real-time weather forecast,
                 Global, Responsive.
               </p>
-              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-              <p></p>
+              <a
+                href="https://demira-react-weather-app-ga.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
             </div>
           </div>
           <div class="work">
@@ -185,11 +199,18 @@
             <div class="layer">
               <h3>Memory Game</h3>
               <p>JavaScript, CSS, Interactive, Responsive.</p>
-              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              <a
+                href="https://memory-card-game-vanilla.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
             </div>
           </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <a href="https://github.com/Demira11" class="btn"
+          >For more projects, click here</a
+        >
+        <!-- <a href="#" class="btn" id="see-more-btn">See more</a> -->
       </div>
     </div>
 
@@ -288,5 +309,20 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const seeMoreBtn = document.getElementById("see-more-btn");
+        const hiddenProjects = document.querySelectorAll(".work.hidden");
+
+        seeMoreBtn.addEventListener("click", function (event) {
+          event.preventDefault();
+          hiddenProjects.forEach((project) => {
+            project.classList.toggle("hidden"); // Toggle the "hidden" class
+          });
+
+          seeMoreBtn.style.display = "none"; // Hide the "see more" button after showing all projects
+        });
+      });
+    </script> -->
   </body>
 </html>

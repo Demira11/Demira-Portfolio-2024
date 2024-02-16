@@ -305,7 +305,7 @@ nav ul li a:hover::after {
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  font-size: 25px;
+  font-size: 18px;
   color: #dfe0e1;
   transition: height 0.5s;
 }
@@ -313,6 +313,7 @@ nav ul li a:hover::after {
 .layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .layer a {
@@ -351,6 +352,10 @@ nav ul li a:hover::after {
 .btn:hover {
   background: #ce4a39;
 }
+
+/* .work.hidden {
+  display: none; 
+} */
 
 /*------------Contact Me---------------*/
 
