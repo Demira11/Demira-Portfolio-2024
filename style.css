@@ -221,6 +221,16 @@ nav ul li a:hover::after {
   margin-top: 50px;
 }
 
+.fa-brands {
+  margin-left: 123px;
+}
+
+.services-list h2 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 5px;
+}
+
 .services-list div {
   background: #a8a6a0;
   padding: 40px;
