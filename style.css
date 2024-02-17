@@ -267,7 +267,7 @@ nav ul li a:hover::after {
 /*---------Projects----------*/
 
 #portfolio {
-  padding: 50px 0;
+  padding: 120px 0;
 }
 
 .work-list {
@@ -353,12 +353,11 @@ nav ul li a:hover::after {
   background: #ce4a39;
 }
 
-/* .work.hidden {
-  display: none; 
-} */
-
 /*------------Contact Me---------------*/
 
+#contact {
+  padding: 120px 0 0 0;
+}
 .contact-left {
   flex-basis: 35%;
 }

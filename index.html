@@ -137,9 +137,9 @@
             <h2>CSS</h2>
             <h2>Bootstrap</h2>
             <h2>Sass</h2>
-            <h2>TailwindCSS</h2>
           </div>
           <div>
+            <h2>TailwindCSS</h2>
             <h2>GitHub</h2>
             <h2>MongoDB</h2>
             <h2>Heroku</h2>
@@ -179,21 +179,7 @@
               ></a>
             </div>
           </div>
-          <div class="work">
-            <img src="images/weather-app.png" />
-            <div class="layer">
-              <h3>Weather App</h3>
-              <p>
-                OpenWeatherMap API, JavaScript, Real-time weather forecast,
-                Global, Responsive.
-              </p>
-              <a
-                href="https://demira-react-weather-app-ga.netlify.app/"
-                target="_blank"
-                ><i class="fa-solid fa-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
+
           <div class="work">
             <img src="images/memory-game.png" />
             <div class="layer">
@@ -206,11 +192,25 @@
               ></a>
             </div>
           </div>
+          <div class="work">
+            <img src="images/weather-app.png" />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                React, OpenWeatherMap API, Real-time weather forecast, Global,
+                Responsive.
+              </p>
+              <a
+                href="https://demira-react-weather-app-ga.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <a href="https://github.com/Demira11" class="btn"
+        <a href="https://github.com/Demira11" class="btn" target="_blank"
           >For more projects, click here</a
         >
-        <!-- <a href="#" class="btn" id="see-more-btn">See more</a> -->
       </div>
     </div>
 
@@ -309,20 +309,5 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const seeMoreBtn = document.getElementById("see-more-btn");
-        const hiddenProjects = document.querySelectorAll(".work.hidden");
-
-        seeMoreBtn.addEventListener("click", function (event) {
-          event.preventDefault();
-          hiddenProjects.forEach((project) => {
-            project.classList.toggle("hidden"); // Toggle the "hidden" class
-          });
-
-          seeMoreBtn.style.display = "none"; // Hide the "see more" button after showing all projects
-        });
-      });
-    </script> -->
   </body>
 </html>
