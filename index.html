@@ -301,7 +301,7 @@
     </script>
     <script>
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbzs_75MIlPqezRNx9eVqXdJ32wPuzO6pl9rRilNHkXR7HDNauM3idFIvO41u1Rk85AxIw/exec";
+        "https://script.google.com/macros/s/AKfycby6o31FjyYz6wF47p5VhPzNCavma3DFj-d-6nOlUVg-YQbYG68yxpXXya_1rjmR6VjLKA/exec";
       const form = document.forms["submit-to-google-sheet"];
       const msg = document.getElementById("msg");
 
@@ -309,7 +309,9 @@
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
+            console.log("Response received:", response);
             msg.innerHTML = "Message sent successfully";
+
             setTimeout(function () {
               msg.innerHTML = "";
             }, 5000);
