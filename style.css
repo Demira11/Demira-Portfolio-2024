@@ -513,3 +513,18 @@ nav .fas {
   margin-top: -40px;
   display: block;
 }
+
+/* Additional media queries for specific devices */
+@media only screen and (max-width: 768px) and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* This targets iPad portrait mode */
+  #header::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* This targets iPad landscape mode, Surface Pro 7, and similar devices */
+  #header::after {
+    display: none;
+  }
+}
